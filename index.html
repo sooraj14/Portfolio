@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4ddcf932b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="">
+                <ul>
+                    <li><a href="#header">Home</a></li>                    
+                    <li><a href="#about">About</a></li>           
+                    <li><a href="#portfolio">Portfolio</a></li>                    
+                    <li><a href="#contact">Contact</a></li>                    
+                </ul>
+            </nav>
+
+            <div class="head-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Sooraj </span> <br>Chowki From Kundapura</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="./Images/sooraj2.jpeg" alt="" height="600">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub">About Me</h1>
+                    <br>
+                    <p class="para-about">A motivated and detail-oriented software engineer with a solid foundation in programming languages, software development, and problem-solving skills. Seeking an entry-level position in a dynamic organization to apply my knowledge in software engineering, enhance my skills in real-world environments, and contribute to developing high-quality software solutions.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Acheivements')">Activities</p>
+                        
+                    </div>
+                    <div class="tab-content tab-active" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS5, JQuery,Bootstrap</li>
+                            <li><span>Programing Languages</span><br>C#, C++, Python</li>
+                            <li><span>UI/UX Web Design</span><br>Figma, Canva</li>
+                            <li><span>FrameWork</span><br>Asp.NET Core</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>Bachelor of Engineering</span><br>RNS Institute Of Technology - 8.25CGPA</li>
+                            <li><span>Pre-University</span><br>SVPUC Gangolli - 85%</li>
+                            <li><span>Secondary School leaving Certificate</span><br>Shubhada English Medium School - 85%</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="Acheivements">
+                        <ul>
+                            <li><span>Sports</span><br>VTU Southzone Kabaddi Winners 2022-2023</li>
+                            <li><span>Scholarship Program</span><br>Vishwakonkani 2020-2024</li>
+                            <li><span>Coordinator</span><br>Hackoverflow 2023</li>
+                            <!-- <li><span>FrameWork</span><br>Flask, Asp.NET</li> -->
+                        </ul>
+                    </div>
+                    
+                    <button class="btn"><a href="./Images/SOORAJ-RESUME.pdf" download >Download CV</a></button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- ---------Portfolio--------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <br><br> 
+            <div class="project-list">
+               <div>
+                <h2>University Enterprise Resource Planning System</h2>
+                <p>Super Admin Module: Manages college admins by adding, viewing, and handling their
+                    status (block/unblock) to maintain platform integrity.
+                    College Admin Module: Configures the academic structure of their college and selects
+                    subscription packages that offer additional features.
+                    Faculty Module: Records student marks and attendance for subjects, ensuring
+                    academic data is maintained and updated.
+                    Student Module: Allows students to view their profile, subject attendance, and
+                    download their marksheet for academic tracking.
+                    </p>
+                    <a href="https://github.com/sooraj14/ERP-System">Visit</a>
+               </div>
+               <div>
+                <h2>Farm Products Ecommerce Web Application</h2>
+                <p>Suppliers can manage their product listings (add, edit, view) and track product
+                    feedback from users.
+                    Users can browse products, place orders, provide feedback, and manage their profiles.
+                    Admin oversees supplier activities, manages product listings</p>
+                    <a href="https://github.com/sooraj14/Farm-Cart">Visit</a>
+               </div>
+               <div>
+                <h2>UI/UX Design</h2>
+                <p>My Dribbble account showcases all of my web design work, highlighting my creativity, attention to detail, and ability to deliver functional and visually appealing designs</p>
+                    <a href="https://dribbble.com/resources/education/ui-vs-ux-design">Visit</a>
+               </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br>
+    <!-- --------------contact-------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p> <i class="fa-regular fa-paper-plane"></i>chowkisooraj@gmail.com</p>
+                    <p>  <i class="fa-solid fa-phone"></i>+91 9482918921</p>
+                    <div class="social-icon">
+                        <a href="https://in.linkedin.com/in/sooraj-chowki-807418240?trk=people-guest_people_search-card"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sooraj14"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="col-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message" required></textarea>
+                        <button  class="btn2" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; made by sooraj</p>
+        </div>
+     </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+       
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("tab-active");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("tab-active");
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzJLT8q8927i3qTVc8f4PSa3zweYbP_rPSfH4_hzJV3EJIJZ-ZphB2oimmByDR9JzCH-A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>  {
+            msg.innerHTML = "Message sent sucessfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
